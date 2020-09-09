@@ -1,0 +1,23 @@
+.landingPageWrapper{
+    display: grid;
+    grid-template-columns: 100vw;
+    grid-template-rows: minmax(10vh,min-content) minmax(90vh,min-content);
+}
+.colorLists{
+    background-color: lightgrey;
+}
+.colorRod{
+    border: 1px solid blue;
+    display: grid;
+    grid-template-columns: 100vw;
+    grid-template-rows: 10vh minmax(20vh,min-content);
+}
+.colorName{
+    box-sizing: border-box;
+    padding: 1rem 1rem;
+}
+.colorBoxesRod{
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(12rem,min-content));
+}

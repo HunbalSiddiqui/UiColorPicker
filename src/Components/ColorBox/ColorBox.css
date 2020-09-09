@@ -1,0 +1,10 @@
+.ColorBox{
+    width: 12rem;
+    height: 12rem;
+    box-shadow: 0 0 5px;
+    cursor: pointer;
+    transition: 0.2s ease-in;
+}
+.ColorBox:hover{
+    transform: scale(1.1);
+}
