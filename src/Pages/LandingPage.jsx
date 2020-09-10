@@ -4,8 +4,6 @@ import NavBar from '../Components/NavBar'
 import ColorBox from '../Components/ColorBox/ColorBox'
 import { RockingRed, BeautifulBlue, GolfGreen, HappyYellow, BalancedGray } from '../Utility/ColorClasses'
 export default function LandingPage() {
-    const count = ["","","","","","","","","","" ]
-    console.log(count)
     return (
         <div className="landingPageWrapper">
             <div>

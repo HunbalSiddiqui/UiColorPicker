@@ -11,6 +11,7 @@
     display: grid;
     grid-template-columns: 100vw;
     grid-template-rows: 10vh minmax(20vh,min-content);
+    font-family: 'Kufam', cursive;
 }
 .colorName{
     box-sizing: border-box;
