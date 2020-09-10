@@ -10,8 +10,8 @@ export default function LandingPage() {
                 <NavBar title="UI-Color Copy" description="Click to copy color" />
             </div>
             <div className="colorLists">
-                <div className="colorRod">
-                    <div className="colorName"><h1>Rocking Red</h1></div>
+                <div className="colorRod"> 
+                    <div className="colorName flex"><h1>Rocking Red</h1></div>
                     <div className="colorBoxesRod flex">
                         {
                             RockingRed.map((color,index)=><ColorBox key={index} srcColor={color} />)   
@@ -19,7 +19,7 @@ export default function LandingPage() {
                     </div>
                 </div>
                 <div className="colorRod">
-                    <div className="colorName"><h1>Reliable Blue</h1></div>
+                    <div className="colorName flex"><h1>Reliable Blue</h1></div>
                     <div className="colorBoxesRod flex">
                         {
                             BeautifulBlue.map((color,index)=><ColorBox key={index}  srcColor={color} />)   
@@ -27,7 +27,7 @@ export default function LandingPage() {
                     </div>
                 </div>
                 <div className="colorRod">
-                    <div className="colorName"><h1>Fertile Green</h1></div>
+                    <div className="colorName flex"><h1>Fertile Green</h1></div>
                     <div className="colorBoxesRod flex">
                         {
                             GolfGreen.map((color,index)=><ColorBox key={index}   srcColor={color}/>)   
@@ -35,7 +35,7 @@ export default function LandingPage() {
                     </div>
                 </div>
                 <div className="colorRod">
-                    <div className="colorName"><h1>Happy Yellow</h1></div>
+                    <div className="colorName flex"><h1>Happy Yellow</h1></div>
                     <div className="colorBoxesRod flex">
                         {
                             HappyYellow.map((color,index)=><ColorBox key={index} srcColor={color}/>)   
@@ -43,7 +43,7 @@ export default function LandingPage() {
                     </div>
                 </div>
                 <div className="colorRod">
-                    <div className="colorName"><h1>Balanced Gray</h1></div>
+                    <div className="colorName flex"><h1>Balanced Gray</h1></div>
                     <div className="colorBoxesRod flex">
                         {
                             BalancedGray.map((color,index)=><ColorBox key={index} srcColor={color}/>)   
@@ -51,7 +51,7 @@ export default function LandingPage() {
                     </div>
                 </div>
                 <div className="colorRod">
-                    <div className="colorName"><h1>Be Funky</h1></div>
+                    <div className="colorName flex"><h1>Be Funky</h1></div>
                     <div className="colorBoxesRod flex">
                         {
                             BeFunky.map((color,index)=><ColorBox key={index} srcColor={color}/>)   

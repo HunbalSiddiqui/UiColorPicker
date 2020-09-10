@@ -15,7 +15,7 @@
 }
 .colorName{
     box-sizing: border-box;
-    padding: 1rem 1rem;
+    /* padding: 1rem 1rem; */
 }
 .colorBoxesRod{
     background-color: white;
