@@ -4,6 +4,8 @@ export var BeautifulBlue = ['#3498DB','#487EB0','#25CCF7','#192A56','#6A89CC','#
 
 export var GolfGreen = ['#2ecc72','#26ae60','#6ab04c','#10A881','#45CE30','#43BE31','#1BCA9B','#7CEC9F','#6AB04A','#badc57','#A3CB37','#019031','#75DA8B','#53E0BC','#218F76']
 
-export var HappyYellow = ['#EEC213','#F5C469','#F3B63A','#FAC42F','#F4C724','#FBD28B','#F0DF87','#F3B431','#FAD02E','#FFF222','#E1DA00']
+export var HappyYellow = ['#EEC213','#F5C469','#F3B63A','#FAC42F','#F4C724','#FBD28B','#F0DF87','#F3B431','#FAD02E','#FFF222','#E1DA00','#807C07','#94902D','#F9F48C','#F1EC85','#FFF304','#CFC506','#DED751','#EEE602']
 
 export var BalancedGray = ['#7B8788','#99AAAB','#2C3335','#535C68','#333945','#2F363F','#616C6F','#586776','#DAE0E2','#8395A7','#4C4B4B','#47535E','#758AA2','#777E8B','#A4B0BD']
+
+export var BeFunky = ['#18080C','#390210','#320239','#720782','#674E63','#F7ABEB','#F20B77','#F20B77','#4B3348','#8702EE']

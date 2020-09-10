@@ -2,7 +2,7 @@ import React from 'react'
 import './LandingPage.css'
 import NavBar from '../Components/NavBar'
 import ColorBox from '../Components/ColorBox/ColorBox'
-import { RockingRed, BeautifulBlue, GolfGreen, HappyYellow, BalancedGray } from '../Utility/ColorClasses'
+import { RockingRed, BeautifulBlue, GolfGreen, HappyYellow, BalancedGray, BeFunky } from '../Utility/ColorClasses'
 export default function LandingPage() {
     return (
         <div className="landingPageWrapper">
@@ -47,6 +47,14 @@ export default function LandingPage() {
                     <div className="colorBoxesRod flex">
                         {
                             BalancedGray.map((color,index)=><ColorBox key={index} srcColor={color}/>)   
+                        }
+                    </div>
+                </div>
+                <div className="colorRod">
+                    <div className="colorName"><h1>Be Funky</h1></div>
+                    <div className="colorBoxesRod flex">
+                        {
+                            BeFunky.map((color,index)=><ColorBox key={index} srcColor={color}/>)   
                         }
                     </div>
                 </div>
