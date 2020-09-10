@@ -7,7 +7,7 @@ export default function LandingPage() {
     return (
         <div className="landingPageWrapper">
             <div>
-                <NavBar title="UIColor Picker" description="Click to copy color" />
+                <NavBar title="UI-Color Copy" description="Click to copy color" />
             </div>
             <div className="colorLists">
                 <div className="colorRod">
